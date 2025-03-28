@@ -9,7 +9,8 @@ import SectionThree from "../Sections/SectionThree/SectionThree"
 import SectionTwo from "../Sections/SectionTwo/SectionTwo"
 
 function Home () {
-    <div className="bg-neutralsilver h-screen max-w-[1207px] mx-auto">
+    return (
+        <div className="bg-neutralsilver h-screen max-w-[1207px] mx-auto">
       <Navbar />
       <Hero/>
       <SectionTwo/>
@@ -22,6 +23,7 @@ function Home () {
       {/* <SectionThree/>
       */}
     </div>
+    )
 }
 
 export default Home;
