@@ -12,7 +12,7 @@ export default function SectionFour() {
                 
                  '>  
                      
-                    <h3 className='text-[1em] md:text-[0.80em]  lg:text-[0.80em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em]'>
+                    <h3 className='text-[1.20em] md:text-[0.80em]  lg:text-[0.80em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em]'>
                     Faster than a Human, more Accurate than an LLM
                     </h3>
                 </div>
@@ -22,24 +22,24 @@ export default function SectionFour() {
                         <div className='flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] '></div>
                         <div className='flex gap-[0.4em]'>
                             <div className=' flex items-center justify-center  text-start px-[0.27em]   rounded-[6.0px] lg:rounded-[16px] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumgray border border-[0.15px] border-mediumgray '>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray text-start' >Time Needed for LOI Abstraction</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray text-start' >Time Needed for LOI Abstraction</p>
                             </div>
                             <div className=' flex items-center justify-center flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumgray  border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray '>Average Data Accuracy</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray '>Average Data Accuracy</p>
                             </div>
                         </div>
                     </div>
 
                     <div className='flex gap-[0.65em] sm:gap-[1em]  '>
                         <div className='  flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumgray border border-[0.15px] border-mediumgray'>
-                            <p className='font-sans font-[700] text-blackgray  text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] '>Manual Abstraction</p>
+                            <p className='font-sans font-[700] text-blackgray  text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] '>Manual Abstraction</p>
                         </div>
                         <div className='flex gap-[0.4em] '>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-lightwarmgray border border-[0.15px] border-mediumgray '>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>15-20 mins</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>15-20 mins</p>
                             </div>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-lightwarmgray border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~95-100%</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~95-100%</p>
 
                             </div>
                         </div>
@@ -47,7 +47,7 @@ export default function SectionFour() {
 
                     <div className='flex gap-[0.65em] sm:gap-[1em]'>
                         <div className=' flex flex-col items-center justify-center rounded-[6.0px] lg:rounded-[16px] w-[3.6em] h-[2.0em] px-[0.25em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumgray '>
-                            <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray w-full text-start'>LLMs</p>
+                            <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray w-full text-start'>LLMs</p>
                             <div className='w-full flex flex-wrap items-center gap-[0.1em] px-[0.15em]'>
                                 <img src='https://s3-alpha-sig.figma.com/img/5377/0eff/971ebf005d5e08b2b092a60a5f380273?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=AUYbzQscOO~0AA0YUA07V9t2INC~8LQwdZISyMdl9z1wz0T2ynXaDDFfn4jt9xXq9WQkw4t0UosIG0ObJHyi05GmzKoxgG~wzRamwmL8qKovwB0YRg6l5B5K~rI1BfBXgBODo4LdGNxRkyGS3Bj15uURqli43h6m4FJW9~YUf4SgRibxYLNA29OmCXMiIhp1ElomaYECziR-DE5Zm9~z8KnjiyFeFVpxY~SrOuVHfosJ9cUKtlSLAu45863H7xRa3KPoO8Kp2DfjES2g4FyOsWEYzNDnoyBoEonvJaa7olqSzVg7P5YrDN4oEbiPvL97GUXG4AF83aLtmRUHVMjvpQ__' 
                                 className='w-full max-w-[0.9em] lg:max-w-[1em]' />
@@ -63,17 +63,17 @@ export default function SectionFour() {
                         </div>
                         <div className='flex gap-[0.4em]'>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-lightwarmgray border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~ 5-7 seconds</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~ 5-7 seconds</p>
 
                             </div>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-lightwarmgray border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~70-90%</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~70-90%</p>
                             </div>
                         </div>
                     </div>
                     <div className='flex gap-[0.65em] sm:gap-[1em] '>
                         <div className=' flex flex-col items-end justify-center rounded-[6.0px] lg:rounded-[16px] w-[3.6em] h-[2.0em] px-[0.25em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray'>
-                            <p className='font-urbanist text-[0.28em] md:text-[0.32em] font-[700] text-blackgray'>
+                            <p className='font-urbanist text-[0.38em] md:text-[0.32em] font-[700] text-blackgray'>
                                 DealTracker
                             </p>
                             <img src={logo} alt="logo-img"/>
@@ -82,12 +82,12 @@ export default function SectionFour() {
                             </p>
                         </div>
                         <div className='flex gap-[0.4em]'>
-                            <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>90 seconds or less</p>
+                            <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray '>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>90 seconds or less</p>
 
                             </div>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray'>
-                                <p className='font-sans text-[0.28em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~95-100%</p>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>~95-100%</p>
 
                             </div>
                         </div>

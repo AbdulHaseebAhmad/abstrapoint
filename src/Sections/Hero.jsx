@@ -3,7 +3,7 @@ import SignupButton from '../Components/Buttons/Signup -Button/SignupButton'
 
 export default function Hero() {
     return ( //py was 0.25em the same as pt, so if section two ui breaks change this back
-        <div className="px-[0.2em] md:px-[.47em] pt-[0.7em] pb-[0.0.8em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralsilver">
+        <div className="px-[0.2em] md:px-[.35em] pt-[0.7em] pb-[0em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralsilver">
     <div className='flex flex-col gap-[24px] '>
         <div className="flex flex-col bg-neutralsilver max-w-[3em]">
             

@@ -11,14 +11,14 @@ import SectionTwo from "../Sections/SectionTwo/SectionTwo"
 function Home () {
     return (
         <div className="bg-neutralsilver h-screen max-w-[1207px] mx-auto">
-      <Navbar />
+      <Navbar bg="#F9FBFD"/>
       <Hero/>
       <SectionTwo/>
       <SectionFour/>
       <SectionFive/>
       <SectionSix/>
       <SectionSeven/>
-      {/* <Footer/> */}
+      <Footer/>
 
       {/* <SectionThree/>
       */}

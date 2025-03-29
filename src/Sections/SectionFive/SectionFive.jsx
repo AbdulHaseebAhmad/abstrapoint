@@ -4,17 +4,17 @@ import LoiListItem from '../../Components/ListItemLOIs/LoiListItem'
 export default function SectionFive() {
     return (
         <div className='
-        px-[0.2em] sm-[.45em] pb-[0.35em] 
+        px-[0.2em] lg:px-[0.42em] sm-[.45em] pb-[0.35em] 
         lg:pb-[0.4em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-lightgray'>{/**layout */}
 
             <div className="px-[.0em] flex flex-col gap-[0.15em] lg:gap-[0.06em] py-[0.35em] pt-[0.28em] pb-[0.15em] bg-lightgray">
                 <div className='text-h3-xs sm:text-h3-sm md:text-h1-md lg:text-h1-lg w-[85%] lg:w-[80%]'>
-                    <h3 className='text-[1em] md:text-[0.8em] lg:text-[0.80em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em]'>
+                    <h3 className='text-[1.20em] md:text-[0.8em] lg:text-[0.80em] text-blackgray font-sans font-[600]  leading-[1.25em] md:leading-[1.2em] lg:leading-[1.2em]'>
                         Your LOIs Abstracted. Your Deals Kept on Track. Your Business Organized.
                     </h3>
                 </div>
                 <div className='text-bodyMd-xs sm:text-h2-sm md:text-h3-md lg:text-h2-md'>
-                    <h2 className='text-[1em] sm:text-[0.7em] md:text-[1em] lg:text-[0.8em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.4em] lg:leading-[1.5em]'>
+                    <h2 className='text-[1.1em] sm:text-[0.7em] md:text-[1em] lg:text-[0.8em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.4em] lg:leading-[1.5em]'>
                         Done in Seconds with the Power of AI.
                     </h2>
                 </div>
