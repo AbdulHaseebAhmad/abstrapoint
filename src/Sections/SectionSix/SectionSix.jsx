@@ -21,13 +21,13 @@ export default function SectionSix() {
                     Unlike ChatGPT and other general-purpose AI models APDT doesn’t just read documents, it understands them. The knowledge and accuracy of a senior broker combined with the speed and efficiency of AI.
                     </p>
                 </div>
-            <div className='mx-auto flex justify-between w-full  mx-auto border py-[0.5em] px-[1em]   text-[12px]  md:text-[12px]  bg-[#FFF]'>
+            <div className='mx-auto flex justify-between w-full items-center  mx-auto border py-[0.5em] px-[1em]   text-[12px]  md:text-[12px]  bg-[#FFF]'>
                 <div className="flex w-1/2 items-center gap-[0.5em] py-[1em]">
                     <FontAwesomeIcon icon={faEnvelope} className='text-mediumgray'/>
                     <input className=' w-full cursos-pointer lg:text-[18px] outline-none' placeholder='Enter your email address'></input>
                 </div>
                 <div className='text-bodyMd-xs sm:bodyMd-sm md:bodyMd-md lg:bodyMd-lg'>
-                <button className='text-blackgray px-[1.3em] py-[1em]  bg-primaryyellow text-[0.8em] md:text-[0.95em] lg-text-[0.8em] text-black font-[600] font-sans'>Signup for early access</button>
+                <button className='text-blackgray px-[0.85em] py-[0.85em] sm:px-[1.3em] sm:py-[1em]  bg-primaryyellow text-[0.65em] sm:text-[0.85em] md:text-[1em] lg-text-[0.8em] text-black font-[600] font-sans'>Signup for early access</button>
 
                 </div>
 

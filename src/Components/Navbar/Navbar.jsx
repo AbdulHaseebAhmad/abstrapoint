@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../../assets/logoresize.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 export default function Navbar({bg}) {
     const navigate = useNavigate();
@@ -23,16 +23,16 @@ export default function Navbar({bg}) {
             <div className=' h-full  flex items-center justify-between   px-[0em] '>
             {/** Logo container */}
             <div className='md:shrink-1'>
-                <img src={logo} alt="abstra-logo" className='w-full h-auto max-w-[11em] md:max-w-[15em] md:min-w-[7em]' onClick={()=>navigate("/abstrapoint/")} />
+                <img src={logo} alt="abstra-logo" className='w-full h-auto max-w-[11em] md:max-w-[15em] md:min-w-[7em]' onClick={()=>navigate("/abstrapoint")} />
             </div>
 
             {/** Links container */}
             <div className='hidden md:flex md:shrink-2 items- mt-[0.6em] '>
                 <div className='flex shrink-2 gap-[10%]'>
-                    <a href="/abstrapoint/" className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-neutralblack'>Home</a>
-                    <a className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>Testimonials</a>
-                    <a className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>FAQs</a>
-                    <a className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>Contact</a>
+                    <NavLink to="/abstrapoint" className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-neutralblack'>Home</NavLink>
+                    <NavLink className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>Testimonials</NavLink>
+                    <NavLink className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>FAQs</NavLink>
+                    <NavLink className='font-sans text-[0.85em] md:text-[0.75em] font-[600] text-textgray'>Contact</NavLink>
                 </div>
             </div>
 

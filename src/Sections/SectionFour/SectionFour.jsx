@@ -8,9 +8,7 @@ export default function SectionFour() {
 
                 <div className='pl-[0.4em] zulo:pl-[0em]
                 max-w-[100%]  zulo:max-w-[70%]  sm:max-w-[80%] md:max-w-[100%] lg:max-w-[75%] 
-                mx-auto text-h3-xs sm:text-h3-sm md:text-h1-md lg:text-h1-lg 
-                
-                 '>  
+                mx-auto text-h3-xs sm:text-h3-sm md:text-h1-md lg:text-h1-lg '>  
                      
                     <h3 className='text-[1.20em] md:text-[0.80em]  lg:text-[0.80em] text-blackgray font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em]'>
                     Faster than a Human, more Accurate than an LLM
@@ -82,8 +80,8 @@ export default function SectionFour() {
                             </p>
                         </div>
                         <div className='flex gap-[0.4em]'>
-                            <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray '>
-                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray'>90 seconds or less</p>
+                            <div className=' flex items-center justify-end rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray '>
+                                <p className='font-sans text-[0.38em] md:text-[0.38em] lg:text-[0.35em] lg:px-[1em] font-[700] text-blackgray ml-[5px] '>90 seconds or less</p>
 
                             </div>
                             <div className=' flex items-center justify-center rounded-[6.0px] lg:rounded-[16px] px-[0.25em] w-[3.6em] h-[2.0em] zulo:w-[4.0em] zulo:h-[2.2em] lg:w-[4em] md:h-[2.4em] bg-mediumlighyellow border border-[0.15px] border-mediumgray'>

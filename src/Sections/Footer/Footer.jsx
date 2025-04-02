@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import cd from "../../assets/cd.png";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
+  
   return (
     <div className='px-[0.32em]  lg:px-[.45em] pt-[0.4em] pb-[0.1em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralblack'>{/**layout */}
 
@@ -20,12 +22,12 @@ export default function Footer() {
             <a href='https://abstracompany.com' blank="_" className='text-[0.4em] m-0 p-0 leading-0 mt-[-25px] font-[700] lg:text-[0.6em] font-sans text-[#D1D1D1]'>abstracompany.com</a>
           </div>
           <div className='md:hidden flex flex-col mt-[20px]'>
-              <a  className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/abstrapoint/privacy-policy" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Privacy Policy
-              </a>
-              <a className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              </Link>
+              <Link to="/abstrapoint/terms-and-conditions" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Terms of use
-              </a>
+              </Link>
             </div>
         </div>
 
@@ -66,12 +68,12 @@ export default function Footer() {
               <FontAwesomeIcon icon={faLinkedin} className='text-neutralsilver text-[0.4em] text-xl  lg:text-3xl '></FontAwesomeIcon>
             </div>
             <div className='flex flex-col items-start mt-[10px]'>
-              <a href="/abstrapoint/privacy-policy" className=' font-[300] text-[0.4em]   lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/abstrapoint/privacy-policy" className=' font-[300] text-[0.4em]   lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Privacy Policy
-              </a>
-              <a href="/abstrapoint/terms-and-conditions" className=' font-[300] text-[0.4em]  lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              </Link>
+              <Link to="/abstrapoint/terms-and-conditions" className=' font-[300] text-[0.4em]  lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Terms of use
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -4,10 +4,10 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy"
 import TermsandCondition from "./Pages/Terms&Conditions/TermsandCondition"
 const router = createBrowserRouter([
   {
-    path: '/abstrapoint/',
+    path: '/abstrapoint',
     element: <Home />,
-  }
-  , {
+  },
+  {
     path: "/abstrapoint/privacy-policy",
     element: <PrivacyPolicy />
   }
@@ -15,6 +15,7 @@ const router = createBrowserRouter([
     path: "/abstrapoint/terms-and-conditions",
     element: <TermsandCondition />
   }
+   
 ])
 function App() {
 
