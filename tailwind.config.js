@@ -29,7 +29,8 @@ export default {
         "neutralblack": "#21232F",
         "blackgray": "#404040",
         'textgray':"#545454",
-        'tint':'#FDF3DC'
+        'tint':'#FDF3DC',
+        'dmred':"#FF3030",
 
       },
       fontSize: {

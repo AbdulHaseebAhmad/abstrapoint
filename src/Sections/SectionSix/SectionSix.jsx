@@ -27,8 +27,8 @@ export default function SectionSix() {
                         <input className=' w-full cursos-pointer lg:text-[18px] outline-none' placeholder='Enter your email address'></input>
                     </div> */}
                     <div className='mx-auto text-bodyMd-xs sm:bodyMd-sm md:bodyMd-md lg:bodyMd-lg'>
-                        <button className='text-blackgray px-[0.85em] py-[0.85em] sm:px-[1.3em] sm:py-[1em]  bg-primaryyellow text-[0.65em] sm:text-[0.85em] md:text-[1em] lg-text-[0.8em] text-black font-[600] font-sans'>Signup for early access</button>
-
+                        {/* <button className='text-blackgray px-[0.85em] py-[0.85em] sm:px-[1.3em] sm:py-[1em]  bg-primaryyellow text-[0.65em] sm:text-[0.85em] md:text-[1em] lg-text-[0.8em] text-black font-[600] font-sans'>Signup for early access</button> */}
+                        <SignupButton text='Signup for early access'/>
                     </div>
 
                     {/* <button className='px-[0.9em] py-[0.75em] sm:px-[1.2em] sm:py-[0.85em] md:px-[2.5em] md:py-[1.45em] bg-primaryyellow text-[0.8em] md:text-[1.1em] lg-text-[0.8em] text-black font-[600] font-sans'>Signup for early access</button> */}
