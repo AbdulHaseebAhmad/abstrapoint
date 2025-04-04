@@ -8,7 +8,7 @@ export default function SectionThree() {
         <div className='px-[.15em] py-[.475em] md:px-[0.50em] lg:px-[0.65em] mb-[3.2em] sm:mb-[1.5em] lg:mb-[1.5em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralsilver'>
             <div className='flex flex-col gap-[.25em] sm:gap-[0.05em] '>
                 <div className='px-[0.3em]  w-full flex sm:justify-end zulo:px-[1.4em] sm:px-[1.7em] sm:px-[0em] mx-auto text-h3-xs sm:text-h3-sm md:text-h1-md lg:text-h1-lg mb-[36px]'>
-                    <h3 className='text-[1.20em] md:text-[0.60em]  lg:text-[0.80em]  text-primaryyellow font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em] max-w-[90%]  zulo:max-w-[60%]  sm:max-w-[50%] md:max-w-[55%] lg:max-w-[50%] justify-end   '>
+                    <h3 className='text-[1.20em] md:text-[0.60em]  lg:text-[0.80em]  text-primaryyellow font-sans font-[600]  leading-[1.2em] md:leading-[1.2em] lg:leading-[1.2em] max-w-[90%]  zulo:max-w-[60%]  sm:max-w-[50%] md:max-w-[60%] lg:max-w-[60%]  justify-end   '>
                         What Our Customers Think About Us
                     </h3>
                 </div>
@@ -18,8 +18,8 @@ export default function SectionThree() {
                     h-[3.8em] inset-0 left-[0.055em] right-[0.055em] 
                     zulo:h-[3.8em] zulo:left-[0.28em] zulo:right-[0.28em]
                      sm:right-[55%] sm:left-[0em] sm:h-[2.5em] sm:top-[-100px]
-                     md:right-[58%] md:h-[2.2em]
-                     lg:right-[55%] lg:h-[2.2em]
+                     md:right-[60%] md:h-[2.2em]
+                     lg:right-[60%] lg:h-[2.2em]
                      md:mt-[-10px]
                      lg:mt-[-35px] flex items-end sm:justify-start justify-center gap-[0.25em]'>
                         <FontAwesomeIcon icon={faArrowLeft} className='text-xl p-1 mb-[10px] sm:mb-[-40px] lg:text-3xl  lg:mb-[-65px] bg-[#E5F1FF] lg:p-3 cursor-pointer' />
@@ -27,7 +27,7 @@ export default function SectionThree() {
                     </div>
 
                     <div className=''>
-                        <div className='absolute  bg-neutralblack w-[85%] zulo:w-[60%] sm:w-[55%] md:max-w-[45%] lg:w-[37%] h-[3.6em] sm:h-[2.4em] md:h-[2.1em] lg:h-[2em]  left-1/2 -translate-x-1/2 lg:left-1/3 lg:-translate-x-1/3  z-20 top-[-30px]'>
+                        <div className='absolute  bg-neutralblack w-[85%] zulo:w-[60%] sm:w-[55%] md:max-w-[45%] lg:w-[35%] h-[3.6em] sm:h-[2.4em] md:h-[2.1em] lg:h-[2em]  left-1/2 -translate-x-1/2 lg:left-1/3 lg:-translate-x-1/3  z-20 top-[-30px]'>
                             <div className='flex flex-col justify-center gap-[0.7em] p-[2em]   text-h3-xs sm:text-h3-sm md:text-h3-md lg:text-h3-lg'>
                                 <div className='flex items-center justify-start w-full'>
                                     <FontAwesomeIcon icon={faQuoteLeft} className='text-neutralsilver text-2xl' />
