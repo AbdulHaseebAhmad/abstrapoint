@@ -1,15 +1,15 @@
 import React from 'react'
-import logo from "../../assets/AbstraPointR.png";
+import logo from "../../../../assets/AbstraPointR.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import cd from "../../assets/cd.png";
+import cd from "../../../../assets/cd.png";
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
   
   return (
-    <div className='px-[0.32em]  lg:px-[.45em] pt-[0.4em] pb-[0.1em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralblack'>{/**layout */}
+    <div id='contact' name='contact' className='px-[0.32em]  lg:px-[.45em] pt-[0.4em] pb-[0.1em] text-hero-xs sm:text-hero-sm md:text-hero-md lg:text-hero-lg bg-neutralblack'>{/**layout */}
 
       <div className='w-full flex gap-[2em] lg:gap-[3em] text-bodyLg-xs sm:text-bodyLg-sm md:text-bodyLg-md lg:text-bodyLg-lg'>
         <div className='h-full'>

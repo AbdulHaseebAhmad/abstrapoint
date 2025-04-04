@@ -1,5 +1,5 @@
 import React from 'react'
-import LoiListItem from '../../Components/ListItemLOIs/LoiListItem'
+import LoiListItem from '../../../../Components/ListItemLOIs/LoiListItem'
 
 export default function SectionFive() {
     return (
