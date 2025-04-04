@@ -14,13 +14,14 @@ function Home () {
       <Navbar bg="#F9FBFD"/>
       <Hero/>
       <SectionTwo/>
+      <SectionThree/>
       <SectionFour/>
       <SectionFive/>
       <SectionSix/>
       <SectionSeven/>
       <Footer/>
 
-      {/* <SectionThree/>
+      {/* 
       */}
     </div>
     )
