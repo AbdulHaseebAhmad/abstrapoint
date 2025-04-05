@@ -19,7 +19,7 @@ This is the website built for **AbstraPoint**, showcasing the services and solut
 To run the project locally:
 
 1. **Clone the Repository**:
-   git clone https://github.com/yourusername/abstrapoint-website.git
+   git clone https://github.com/AbdulHaseebAhmad/abstrapoint
 
 2. **Navigate into the Project Folder**:
    cd abstrapoint
