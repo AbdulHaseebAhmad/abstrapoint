@@ -22,10 +22,10 @@ export default function Footer() {
             <a href='https://abstracompany.com' blank="_" className='text-[0.4em] m-0 p-0 leading-0 mt-[-25px] font-[700] lg:text-[0.6em] font-sans text-[#D1D1D1]'>abstracompany.com</a>
           </div>
           <div className='md:hidden flex flex-col mt-[20px]'>
-              <Link to="/abstrapoint/privacy-policy" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/privacy-policy" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Privacy Policy
               </Link>
-              <Link to="/abstrapoint/terms-and-conditions" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/terms-and-conditions" className=' font-[300] text-[0.5em]  lg:text-[0.7em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Terms of use
               </Link>
             </div>
@@ -68,10 +68,10 @@ export default function Footer() {
               <FontAwesomeIcon icon={faLinkedin} className='text-neutralsilver text-[0.4em] text-xl  lg:text-3xl '></FontAwesomeIcon>
             </div>
             <div className='flex flex-col items-start mt-[10px]'>
-              <Link to="/abstrapoint/privacy-policy" className=' font-[300] text-[0.4em]   lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/privacy-policy" className=' font-[300] text-[0.4em]   lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Privacy Policy
               </Link>
-              <Link to="/abstrapoint/terms-and-conditions" className=' font-[300] text-[0.4em]  lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
+              <Link to="/terms-and-conditions" className=' font-[300] text-[0.4em]  lg:text-[0.56em] font-sans text-[#D1D1D1] m-0 leading-0 p-0'>
                 Terms of use
               </Link>
             </div>

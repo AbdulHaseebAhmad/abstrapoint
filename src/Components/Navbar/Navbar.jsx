@@ -35,14 +35,14 @@ export default function Navbar({ bg }) {
             src={logo}
             alt="abstra-logo"
             className="cursor-pointer w-full h-auto max-w-[11em] md:max-w-[15em] md:min-w-[7em]"
-            onClick={() => navigate("/abstrapoint")}
+            onClick={() => navigate("/")}
           />
         </div>
         {/** Links container */}
         <div className="hidden md:flex md:shrink-2 items- mt-[0.6em] ">
           <div className="flex shrink-2 gap-[10%]">
             <NavLink
-              to="/abstrapoint"
+              to="/"
               className="font-sans text-[0.85em] md:text-[0.75em] font-[600] text-neutralblack"
             >
               Home
